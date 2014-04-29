@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Document   : index
+    Created on : 22.07.2013, 11:40:16
+    Author     : Max
+-->
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+
+    <jsp:directive.page contentType="text/html" pageEncoding="UTF-8"/>
+
+    <html>
+        <head>          
+            <title>Start TeleStation</title>
+        </head>
+        <body>
+            <a href="controller">Run Telephone Station</a>
+        </body>
+    </html>
+
+</jsp:root>

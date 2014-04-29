@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+
+    <jsp:directive.page contentType="text/html" pageEncoding="UTF-8"/>
+
+    <html>
+        <head>
+            <title>Error</title>
+        </head>
+        <body BGCOLOR="#FDF5E6" TEXT="#000000" LINK="#0000EE"
+      VLINK="#551A8B" ALINK="#FF0000">
+            <h3>Error</h3>
+            <hr/>
+            <jsp:expression>(request.getSession().getAttribute("error") != null) 
+                    ? (String) request.getSession().getAttribute("error") : "unknown error"</jsp:expression>
+            <hr/>
+            <a href="controller">Return to login page</a>
+        </body>
+    </html>
+
+</jsp:root>
